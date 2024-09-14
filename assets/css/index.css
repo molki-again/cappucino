@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;400&display=swap');
+
+html {
+  background-color: #221F30;
+  color: white;
+  text-align: center;
+  align-content: center;
+}
+
+h1 {
+   font-family: "Prompt";
+}
