@@ -11,6 +11,34 @@ h1 {
    font-family: "Prompt";
 }
 
-#subtitles {
+span#caption {
   font-family: monospace;
+}
+
+.game {
+	width: 15%;
+	border-radius: 20px;
+	display: inline-block;
+	background-color: var(--uibg);
+	margin: 15px;
+	cursor: pointer;
+}
+
+.game:hover {
+	transform: scale(1.1);
+	filter: brightness(85%);
+}
+
+.game h1 {
+	font-size: 12px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.game img {
+	width: 100%;
+	border-radius: 20px;
+	aspect-ratio: 1 / 1;
 }
