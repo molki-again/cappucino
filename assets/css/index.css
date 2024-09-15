@@ -7,29 +7,37 @@ html {
   align-content: center;
 }
 
-h1 {
+h1,h2,h3 {
    font-family: "Prompt";
 }
 
-span#caption {
+span {
   font-family: monospace;
 }
 
-.game {
-	width: 15%;
-	border-radius: 20px;
+.container {
+	background-color: #221F30;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
 	display: inline-block;
-	background-color: var(--uibg);
-	margin: 15px;
-	cursor: pointer;
+	font-size: 16px;
+	margin: 5px;
+		border-radius: 25px;
+		border: 2px solid #ffffff;
+		padding: 20px; 
+		width: 200px;
+		height: 150px;
 }
 
-.game:hover {
-	transform: scale(1.1);
-	filter: brightness(85%);
+.container img {
+	width: 100%;
+	border-radius: 20px;
+	aspect-ratio: 1 / 1;
 }
 
-.game h1 {
+.container h3 {
 	font-size: 12px;
 	float: right;
 	margin-right: 10px;
@@ -37,8 +45,12 @@ span#caption {
 	margin-bottom: 3px;
 }
 
-.game img {
-	width: 100%;
-	border-radius: 20px;
-	aspect-ratio: 1 / 1;
+.container a {
+   color: white;
+   font-family: monospace;
+   text-align: center;
+}
+
+.container a:hover {
+	scale: (1.1);
 }
