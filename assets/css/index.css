@@ -11,6 +11,10 @@ h1,h2,h3 {
    font-family: "Prompt";
 }
 
+p {
+  font-family: monospace;
+}
+
 span {
   font-family: monospace;
 }
@@ -34,7 +38,7 @@ span {
 	aspect-ratio: 1 / 1;
 }
 
-.container h3 {
+.container h2 {
 	font-size: 12px;
 	float: right;
 	margin-right: 10px;
@@ -50,4 +54,28 @@ span {
 
 .container a:hover {
 	scale: (1.1);
+}
+
+.search-bar {
+	padding: 1px 87px 1px 52px;
+	border: none;
+	border-radius: 30px;
+	font-size: 16px;
+	font-family: monospace;
+	width: 60vh;
+	height: 44px;
+	font-weight: 100;
+	background-color: transparent;
+	color: #fff;
+	text-align: center;
+	transition: all .2s ease-in-out; 
+	outline: none;
+	text-align: left;
+  }
+
+.pfp {
+	border-radius: 50%;
+	width: 10vw;
+	height: 10vw;
+	margin-bottom: 10px;
 }
