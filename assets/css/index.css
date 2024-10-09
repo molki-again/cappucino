@@ -72,3 +72,16 @@ span {
 	outline: none;
 	text-align: left;
   }
+
+  header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #1c1c1c;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  font-family: 'Prompt';
+}
