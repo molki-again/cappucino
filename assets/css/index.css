@@ -73,15 +73,25 @@ span {
 	text-align: left;
   }
 
-  header {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #1c1c1c;
+  background-color: #221F30;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 9999;
-  font-family: 'Prompt';
+  font-family: "Prompt";
+  border-color: white;
+}
+
+header > a,header > i {
+  justify-content: space-between;
+  color: white;
+}
+
+header > a,header > i:hover {
+	color: white;
 }
